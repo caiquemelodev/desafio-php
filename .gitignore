@@ -1,0 +1,29 @@
+# Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignorar arquivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignorar logs
+*.log
+error_log
+
+# Ignorar backups
+*.bak
+*.backup
+*~
+
+# Ignorar arquivos temporários
+tmp/
+temp/
+cache/
+
+# Não ignorar arquivos essenciais do projeto
+!.htaccess
+!.gitignore
